@@ -1,10 +1,12 @@
 import Navbar from "./Component/Navbar";
+import Shop from "./Component/Shop";
 
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className="container">
+        <Shop />
       </div>
     </>
   );
